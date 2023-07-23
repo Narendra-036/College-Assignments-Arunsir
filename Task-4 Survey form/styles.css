@@ -1,0 +1,73 @@
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(130deg,#4c00ff,#a000fc);
+}
+.container {
+  
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  border: 3px solid #000000;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.logo{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover{
+  animation: 2s imagehiver ease infinite;
+  background: linear-gradient(45deg,#4c00ff,#a000fc);
+}
+  
+@keyframes imagehiver{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(5px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
